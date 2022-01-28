@@ -1,0 +1,15 @@
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/Task_4
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/Task_4.deps.json
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/Task_4.runtimeconfig.json
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/Task_4.dll
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/ref/Task_4.dll
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/bin/Debug/net6.0/Task_4.pdb
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.csproj.AssemblyReference.cache
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.AssemblyInfoInputs.cache
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.AssemblyInfo.cs
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.csproj.CoreCompileInputs.cache
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.dll
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/ref/Task_4.dll
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.pdb
+/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/Debug/net6.0/Task_4.genruntimeconfig.cache
