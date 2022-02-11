@@ -13,16 +13,9 @@
         "packagesPath": "/Users/andrii.borodin/.nuget/packages/",
         "outputPath": "/Users/andrii.borodin/RiderProjects/Task_4/Task_4/obj/",
         "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/andrii.borodin/.nuget/NuGet/NuGet.Config"
-        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
-        "sources": {
-          "http://scm.betlab.private:8070/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",

@@ -6,11 +6,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Game rules: \n select two numbers in the range from 0 to 1,000,000 " +
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.Write("Game rules: \n Select two numbers in the range from 0 to 1,000,000 " +
                       " \n The program take random a number from your range" +
                       "\n You have unlimit attempts to guess this number " +
                       "\n press 's' key button for start game " +
                       "\n press 'q' key button for exit: ");
+        Console.ResetColor();
         
         ConsoleKeyInfo user_input = default;
         do
@@ -72,17 +74,23 @@ class Program
             user_guess = int.Parse(Console.ReadLine());
             if (user_guess < random_value)
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("too low, try again");
+                Console.ResetColor();
                 guess_counter++;
             }
             else if (user_guess > random_value)
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("too higth, try again");
+                Console.ResetColor();
                 guess_counter++;
             }
             else if (user_guess == random_value)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("You win!");
+                Console.ResetColor();
             }
         } while (user_guess != random_value);
         int score = ScoreSettlement(array, guess_counter);
@@ -90,10 +98,12 @@ class Program
         TimeSpan ts = stopWatch.Elapsed;
         string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}",
             ts.Hours, ts.Minutes, ts.Seconds);
+        Console.WriteLine("***********************");
         Console.WriteLine("Game time: " + elapsedTime);
         
         Console.WriteLine("Attempts count: " + guess_counter);
         Console.WriteLine("Your score: " + score);
+        Console.WriteLine("***********************");
         return 0;
 
     }
@@ -113,10 +123,6 @@ class Program
         int ceil_pow = PowerCeil(v_range);
         int nearest_pow = NearestPowToVRange( floor_pow, ceil_pow, v_range);
         double result = Math.Ceiling((double) (100 * (nearest_pow - guessCounter) / nearest_pow));
-        if (result == 0)
-        {
-            return 0;
-        }
         return (int) result;
     }
     
